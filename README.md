@@ -13,10 +13,27 @@ While analyzing the client's brief, one of our App team members had a 'brilliant
 - Game's theme color as the background color of Game Detail page.
 Note : You may also find these values in the remote Game resource that our current 'website' consumes.
 
+## Assignment Criteria
+
+We want to see how you approach and solve a problem, as well as look at code style, quality and your architecture approach.
+Do take your time to do it right, rather than fast.
+
+Be prepared to discuss your choices and code when delivered.
+
 ## Running Website
 ```sh
 npm install
 npm start
 ```
-### Hints
+## Hints
 You may make use of a free web tunnel (eg: NGRok) if you don't want to deal with a self signed SSL on the localhost website you wrap.
+
+## Found a bug?
+
+Pull requests welcome, and maybe [we have a job for you](http://jobs.comeon.com/)? :)
+
+## Deliverables
+
+Start with an empty public GitHub repository and add the 'website' and contents folder to it or Fork this repository. Add your native app implementation (Whether you have chosen to implement iOS or Android) in a separate folder named : 'Native'. Repository must include a README file which provides instructions on how to build and run the app. As a deliverable provide the URL to the repository.
+
+Good luck, and happy coding!
