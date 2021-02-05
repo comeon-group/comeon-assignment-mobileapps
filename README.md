@@ -40,7 +40,7 @@ npm install
 npm start
 ```
 ## Hints
-You may make use of a free web tunnel (eg: NGRok) if you don't want to deal with a self signed SSL on the localhost website you wrap.
+You may make use of a free web tunnel (eg: NGRok) if you don't want to deal with a self signed SSL on the localhost website you wrap. There may be more than one solution to achieve the **communication** between Web and Native sides of the app. Please choose the suitable that best matches for your needs. 
 
 ## Found a bug?
 
