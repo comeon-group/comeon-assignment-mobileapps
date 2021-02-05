@@ -7,12 +7,26 @@ While analyzing the client's brief, one of our App team members had a 'brilliant
 
 1) Our client thought that putting a bar on top of the Game listing page would allow users to identify which part of the page they are in, making navigation easier to understand. 
 2) Our client asked us to show the number of games in the 'navigation bar' so you are required to implement a 'Total Game Number' indicator on top of the game-list page.
-3) When a user taps on the arrow icon of any game, the user should be navigated to the game detail page. The detail page must show : 
+3) When a user taps on the arrow icon of any game, the user should be navigated to a **native** game detail page. The detail page must show : 
 - Game's name on top of the detail page
 - Game's description inside a card with a white background.
 - Game's theme color as the background color of Game Detail page.
 Note : You may also find these values in the remote Game resource that our current 'website' consumes.
-
+Example game from the Games resource : 
+```json
+{
+    "categoryIds": [
+      0,
+      1
+    ],
+    "code": "jackhammer",
+    "description": "Jack Hammer is a 25-line, 3-row video slot using 15 independent reels set in the gritty, glamorous underworld of a crime fighting private eye.The game features Sticky Wins, Free Spins and Wild Substitutions.",
+    "icon": "images/game-icon/jackhammer.jpg",
+    "name": "Jack Hammer",
+    "short_desc": "Jack Hammer is a 25-line, 3-row video slot using 15 independent reels set in the gritty",
+    "theme": "RGB(660066)"
+}
+```
 ## Assignment Criteria
 
 We want to see how you approach and solve a problem, as well as look at code style, quality and your architecture approach.
