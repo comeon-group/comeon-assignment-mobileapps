@@ -6,7 +6,7 @@ While analyzing the client's brief, one of our App team members had a 'brilliant
 
 
 1) Our client thought that putting a bar on top of the Game listing page would allow users to identify which part of the page they are in, making navigation easier to understand. 
-2) Our client asked us to show the number of games in the 'navigation bar' so you are required to implement a 'Total Game Number' indicator on top of the game-list page.
+2) Our client asked us to show the number of games in the 'navigation bar' so you are required to implement a 'Total Game Number' indicator on top of the game-list page. (Optional/Bonus)
 3) When a user taps on the arrow icon of any game, the user should be navigated to a **native** game detail page. The detail page must show : 
 - Game's name on top of the detail page
 - Game's description inside a card with a white background.
