@@ -26,6 +26,7 @@ function GameCell(props: any) {
       <IconButton aria-label="play" onClick={e => {
         console.log("Go to Details page of", game.code);
         let assertedWindow = window as any
+        // Trigger bridge message for IOS (What will be the equivalent for Android?)
         if (assertedWindow.webkit && assertedWindow.webkit.messageHandlers && assertedWindow.webkit.messageHandlers.toggleMessageHandler) {
           assertedWindow.webkit.messageHandlers.toggleMessageHandler.postMessage({
             "gameChosen": game.code
