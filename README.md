@@ -12,7 +12,7 @@ While analyzing the client's brief, one of our App team members had a 'brilliant
 - Game's description inside a card with a white background.
 - Game's theme color as the background color of Game Detail page.
 Note : You may also find these values in the remote Game resource that our current 'website' consumes.
-Example game from the Games resource : 
+Example game from the Games resource (https://kismet-bd1ac.firebaseio.com/assignment/games.json) : 
 ```json
 {
     "categoryIds": [
@@ -36,6 +36,7 @@ Be prepared to discuss your choices and code when delivered.
 
 ## Running Website
 ```sh
+cd website/
 npm install
 npm start
 ```
