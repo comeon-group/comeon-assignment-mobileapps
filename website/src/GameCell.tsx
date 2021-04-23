@@ -15,15 +15,23 @@ export interface Game {
 
 
 function GameCell(props: any) {
-  const {game } = props;
+  const { game } = props;
 
-  console.log("Current game : ",game)
+  console.log("Current game : ", game)
   return (
     <div className="Game">
-      <img src={game.icon} alt="game-thumbnail"/>
+      <img src={game.icon} alt="game-thumbnail" />
       <p><b>{game.name}</b>
-      {game.short_desc}</p>
-      <IconButton aria-label="delete" onClick={e => {console.log("Go to Details page")}}>
+        {game.short_desc}</p>
+      <IconButton aria-label="play" onClick={e => {
+        console.log("Go to Details page of", game.code);
+        let assertedWindow = window as any
+        if (assertedWindow.webkit && assertedWindow.webkit.messageHandlers && assertedWindow.webkit.messageHandlers.toggleMessageHandler) {
+          assertedWindow.webkit.messageHandlers.toggleMessageHandler.postMessage({
+            "gameChosen": game.code
+          });
+        }
+      }}>
         <RightIcon fontSize="large" />
       </IconButton>
     </div>
